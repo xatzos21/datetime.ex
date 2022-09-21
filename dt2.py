@@ -36,4 +36,7 @@ print(y)
 # from the first day of a month. Create a string that stores a message 
 # to a customer called Friedrich, print out the message to the terminal.
 
-sdt = 
+sdt = datetime(2021, 1, 1)
+sdt1 = datetime.sdt.strftime()
+
+print("Hello Friedrich, you rent of 300€ is due on", sdt1)
