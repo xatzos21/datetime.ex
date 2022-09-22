@@ -36,7 +36,19 @@ print(y)
 # from the first day of a month. Create a string that stores a message 
 # to a customer called Friedrich, print out the message to the terminal.
 
-sdt = datetime(2021, 1, 1)
-sdt1 = datetime.sdt.strftime()
+#Start by creating a datetime instance with 25 January, 2021.
+
+# `start_date = datetime(year=2020, month=1, day=1)`
+
+# - Your result should look like this:
+
+# ```
+# Hello Friedrich, your rent of 300 € is due on 25 January, 2021.
+# ```
+
+
+sdt = datetime(2021, 1, 25)
+sdt1 = datetime.strftime(sdt, "%d %B, %Y")
+
 
 print("Hello Friedrich, you rent of 300€ is due on", sdt1)
