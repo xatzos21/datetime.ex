@@ -27,7 +27,16 @@ import os, datetime, time
 
 # time.sleep(1)
 # os.system("clear")
-# X = input("Enter date in this format yyyy-mm-dd ")
+# X = input("Enter date to be noted in this format yyyy-mm-dd ")
 # Y = datetime.datetime.strptime(X, "%Y-%m-%d")
 # Z = datetime.datetime.today()
 # print("Days left until the given date: ", str(Y-Z))
+
+
+#Personal Project Datetime!
+# - use datetime
+# - surprise us!
+
+r21 = datetime.date.today()
+for i in range(0,3):
+    print(r21 + datetime.timedelta(days=i))
