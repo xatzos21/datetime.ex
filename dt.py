@@ -21,39 +21,41 @@ current_datetime = datetime.now()
 ### Task 1
 
 #Using the variable called `current_datetime`, print out the current year
-# os.system("clear")
-# print("Current year: ", current_datetime.year)
-# time.sleep(3)
-# os.system("clear")
+os.system("clear")
+print("Current year: ", current_datetime.year)
+time.sleep(3)
+os.system("clear")
 
 
 ### Task 2
 
 #Using the variable called `some_date`, print out the current week day
 
-# some_date = datetime(2022,9,21)
-# print("Week day:", some_date.strftime("%w"))
-# time.sleep(3)
-# os.system("clear")
+some_date = datetime(2022,9,21)
+print("Week day:", some_date.strftime("%w"))
+time.sleep(3)
+os.system("clear")
 
 
 ### Task 3
 
 #Write a Python program to determine whether the year 2021 is a leap year.
 
-# import calendar
+import calendar
 
-# x = datetime(2021, 1, 1)
-# if x == calendar.isleap(2021):
-#     print(x, " is a leap year!")
-# else:
-#     print(x, " is not a leap year")
+x = datetime(2021, 1, 1)
+if x == calendar.isleap(2021):
+    print(x, " is a leap year!")
+else:
+    print(x, " is not a leap year")
+time.sleep(3)
+os.system("clear")
 
 
 ### Task 4
 
 #Your task is to convert a user provided string into a datetime object.
 
-# datestring = "Feb 14, 2021"
-# date_string = datetime.strptime(datestring, "%b %d, %Y")
-# print(date_string)
+datestring = "Feb 14, 2021"
+date_string = datetime.strptime(datestring, "%b %d, %Y")
+print(date_string)
